@@ -1,0 +1,99 @@
+/* Font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,800;0,900;1,300&family=Roboto:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+}
+
+#hero{
+    background-color: #264653;
+    height: 100vh;
+    color: #fff;
+}
+/* Button  */
+.btc {
+    background-color: #E76F51;
+    border: 0;
+    padding: 10px 25px;
+}
+.btc:hover{
+    background-color: #E76F51;
+    border:0;
+}
+.btc:focus{
+    background-color:#E76F51;
+    border-color:transparent;
+    box-shadow:none;
+}
+/* moder  */
+.modal-content{
+    background-color: #E76F51;
+}
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+
+/* Fetured Bikes section  */
+.feture h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #E76F51;
+}
+
+hr{
+    background: #E76F51;
+    width: 8%;
+    margin-left: 45%;
+    margin-top: -2PX;
+    border: 2px solid #E76F51;
+    border-radius: 2px;
+}
+.graybike {
+    filter: grayscale(100%);
+}
+
+/* Latest News section  */
+.design {
+    color: #E76F51;
+}
+.newscard h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.icon {
+    color: #E76F51;
+}
+
+/* From-section  */
+#submit {
+    background:#264653;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+/* footer text  */
+.downtext {
+    background-color: #264653;
+    color: #fff;
+}
+
+.fa-brands {
+    font-size:1.5rem;
+    width: 3rem;
+    color: #fff;
+}
